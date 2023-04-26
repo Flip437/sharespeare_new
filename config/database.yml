@@ -83,5 +83,4 @@ production:
   <<: *default
   database: sharespeare_production
   username: postgres
-  # password: <%= ENV["SHARESPEARE_DATABASE_PASSWORD"] %>
-  password: postgres
+  password: <%= ENV["SHARESPEARE_DATABASE_PASSWORD"] %>
