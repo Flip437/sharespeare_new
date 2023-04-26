@@ -35,3 +35,4 @@
 log/*.log
 .vscode/settings.json
 ./logfile
+logfile
